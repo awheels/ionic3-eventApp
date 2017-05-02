@@ -33,7 +33,8 @@ export class MyApp {
           this.rootPage = 'login'; 
           unsubscribe();
         }else{
-          this.rootPage = HomePage; unsubscribe();
+          this.rootPage = HomePage; 
+          unsubscribe();
         } 
       });
     });
